@@ -129,6 +129,10 @@ namespace EjemploMezclaDirecta
                 // Detener el temporizador
                 stopwatch.Stop();
 
+                // Mostrar los datos ordenados
+                Console.WriteLine("Datos ordenados:");
+                MostrarDatos(datos);
+
                 // Obtener la hora de finalización
                 var endTime = DateTime.Now;
 
